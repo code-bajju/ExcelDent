@@ -186,7 +186,7 @@
                                        Make Appointment
                                     </h2>
                                 </div>                                
-                                <form action="https://script.google.com/macros/s/AKfycbyWSG5rtn1_-A76M8K_6OJYX5C7IwbIxnnlxr3ddFEQ8pv87aQpTE1vhVgGN2XDbeM9xQ/exec" method="post" class="contact-form mt-30">
+                                <form action="https://script.google.com/macros/s/AKfycbzMPKPp1lJgPfN609ASDr7Vbcdq_KxsJDWCxnvEOyT9uxHe0Wjn5dePnkohcCuHmmk/exec" method="post" class="contact-form mt-30">
                                     <div class="row">
                                     <div class="col-lg-6">
                                         <div class="contact-field p-relative c-name mb-20">                                    
@@ -373,6 +373,16 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/element-in-view.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            document.getElementById('myForm').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent the default form submission
+    
+                // Perform any additional processing or validation if needed
+    
+                // Redirect to thank-you.html
+                window.location.href = 'thank-you.html';
+            });
+        </script>
     </body>
 
 <!-- Mirrored from htmldemo.zcubethemes.com/ExcelDent/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Aug 2023 14:07:51 GMT -->
